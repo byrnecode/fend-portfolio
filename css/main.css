@@ -1,0 +1,80 @@
+html,
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #fcfcfc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.header-text {
+  text-align: center;
+}
+
+@media (min-width: 601px) {
+  .header-text {
+    text-align: right;
+  }
+}
+
+.logo-wrap {
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media (min-width: 1201px) {
+  .logo-wrap {
+    padding: 1em 2em;
+  }
+}
+
+.card .card-image .card-title {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #5c6bc0;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 5em;
+}
+
+footer a {
+  color: #ffab40;
+}
+
+footer a:hover {
+  color: #ffd8a6;
+}

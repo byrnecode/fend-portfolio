@@ -1,0 +1,9 @@
+.logo-wrap {
+	padding: 1em;
+	text-align: center;
+	margin-top: 2em;
+
+	@media (min-width: 1201px) {
+		padding: 1em 2em;
+	}
+}

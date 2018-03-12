@@ -1,0 +1,7 @@
+.header-text {
+	text-align: center;
+
+	@media (min-width: 601px) {
+		text-align: right;
+	}
+}
